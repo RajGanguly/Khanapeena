@@ -1,0 +1,23 @@
+<div class= "container-fluid">
+  <div class= "row">  
+    <div class= "col-xs-3 col-md-3">
+    </div>
+    <div class= "col-xs-12 col-md-6">
+       <!-- <button type="button" class="btn btn-primary">Enter our cafetaria</button> -->
+       <%= link_to "Looking for breakfast?", food_palace_getAllFoodItems_path, :method => "get", :class => "btn btn-primary" %>
+       <%= link_to "Hungry for lunch?", food_palace_getAllFoodItems_path, :method => "get", :class => "btn btn-primary" %>
+       <%= link_to "Idle Supper..", food_palace_getAllFoodItems_path, :method => "get", :class => "btn btn-primary" %>
+       <%= link_to "Cozy dinner maybe..", food_palace_getAllFoodItems_path, :method => "get", :class => "btn btn-primary" %>
+    </div>
+    <div class= "col-xs-3 col-md-3">
+    </div>
+  </div>
+  <div class= "row">
+    <%= render :partial => 'getMainFoodCarousel' %>
+  </div>  
+    <!-- Carousel --> 
+
+  <div class= "row">
+    
+  </div>   
+</div>   

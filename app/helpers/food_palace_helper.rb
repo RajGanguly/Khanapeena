@@ -1,0 +1,2 @@
+module FoodPalaceHelper
+end
